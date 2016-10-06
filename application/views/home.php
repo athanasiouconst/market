@@ -19,33 +19,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link class="include" rel="stylesheet" type="text/css" href="css/jquery.jqplot.css" />
+<link href="<?php echo base_url(); ?>css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?php echo base_url(); ?>css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link class="include" rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/jquery.jqplot.css" />
 <!-- calender -->
-<link type="text/css" href="css/jquery.simple-dtpicker.css" rel="stylesheet" />
+<link type="text/css" href="<?php echo base_url(); ?>css/jquery.simple-dtpicker.css" rel="stylesheet" />
 <!-- //calender -->
 <!-- different-chart-bar -->
-<link rel="stylesheet" href="css/chart.min.css">
+<link rel="stylesheet" href="<?php echo base_url(); ?>css/chart.min.css">
 <!-- //different-chart-bar -->
 <!-- font-awesome icons -->
-<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="<?php echo base_url(); ?>css/font-awesome.min.css" />
 <!-- //font-awesome icons -->
 <!-- js -->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="js/jquery.marquee.min.js"></script>
+<script src="<?php echo base_url(); ?>js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.marquee.min.js"></script>
 <!-- js -->
 <!-- pop-up -->
-<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?php echo base_url(); ?>css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
 <!-- //pop-up -->
 <!-- left-chart -->
-<script src="js/jquery.flot.min.js" type="text/javascript"></script> 
-<script src="js/jquery.flot.animator.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>js/jquery.flot.min.js" type="text/javascript"></script> 
+<script src="<?php echo base_url(); ?>js/jquery.flot.animator.min.js" type="text/javascript"></script>
 <!-- //left-chart -->
 <link href="//fonts.googleapis.com/css?family=Muli:300,300i,400,400i" rel="stylesheet">
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>js/move-top.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>js/easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
