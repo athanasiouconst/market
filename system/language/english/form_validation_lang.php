@@ -37,8 +37,10 @@
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['form_validation_required']		= 'The {field} field is required.';
-$lang['form_validation_isset']			= 'The {field} field must have a value.';
+$lang['form_validation_required']		= 'Το πεδίο {field} δεν μπορεί να είναι κενό.';
+//$lang['form_validation_required']		= 'The {field} field is required.';
+$lang['form_validation_isset']			= 'Το πεδίο {field} περιέχεται ήδη στη βάση δεδομένων.';
+//$lang['form_validation_isset']			= 'The {field} field must have a value.';
 $lang['form_validation_valid_email']		= 'The {field} field must contain a valid email address.';
 $lang['form_validation_valid_emails']		= 'The {field} field must contain all valid email addresses.';
 $lang['form_validation_valid_url']		= 'The {field} field must contain a valid URL.';
@@ -56,7 +58,8 @@ $lang['form_validation_integer']		= 'The {field} field must contain an integer.'
 $lang['form_validation_regex_match']		= 'The {field} field is not in the correct format.';
 $lang['form_validation_matches']		= 'The {field} field does not match the {param} field.';
 $lang['form_validation_differs']		= 'The {field} field must differ from the {param} field.';
-$lang['form_validation_is_unique'] 		= 'The {field} field must contain a unique value.';
+$lang['form_validation_is_unique'] 		= 'Το πεδίο {field} περιέχεται ήδη στη βάση δεδομένων.';
+//$lang['form_validation_is_unique'] 		= 'The {field} field must contain a unique value.';
 $lang['form_validation_is_natural']		= 'The {field} field must only contain digits.';
 $lang['form_validation_is_natural_no_zero']	= 'The {field} field must only contain digits and must be greater than zero.';
 $lang['form_validation_decimal']		= 'The {field} field must contain a decimal number.';
