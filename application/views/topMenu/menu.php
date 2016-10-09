@@ -41,7 +41,7 @@
                                 <div class="dropdown-menu w3ls_vegetables_menu">
                                     <ul>	
                                         <li><a href="<?php echo base_url('Products/ViewProducts'); ?>">Προϊόντα</a></li>
-                                        <li><a href="<?php echo base_url('sales'); ?>">Πωλήσεις</a></li>
+                                        <li><a href="<?php echo base_url('Sales/ViewSales'); ?>">Πωλήσεις</a></li>
                                     </ul>             
                                 </div>
                             </li>
