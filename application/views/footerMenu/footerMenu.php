@@ -4,10 +4,10 @@
 		<div class="container">
 			<ul class="agileits_w3layouts_footer_info">
 				<a href="<?php echo base_url(); ?>">Αρχική</a><i>|</i></li>
-				<a href="<?php echo base_url('workingDays'); ?>">Ημέρες Εργασίας</a><i>|</i></li>
-				<a href="<?php echo base_url('publicMarket'); ?>">Λαϊκή Αγορά</a><i>|</i></li>
-				<a href="<?php echo base_url('products'); ?>">Προϊόντα</a><i>|</i></li>
-				<a href="<?php echo base_url('sales'); ?>">Πωλήσεις</a><i>|</i></li>
+				<a href="<?php echo base_url('WorkingDays/ViewDays'); ?>">Ημέρες Εργασίας</a><i>|</i></li>
+				<a href="<?php echo base_url('PublicMarket/ViewPublicMarket'); ?>">Λαϊκή Αγορά</a><i>|</i></li>
+				<a href="<?php echo base_url('Products/ViewProducts'); ?>">Προϊόντα</a><i>|</i></li>
+				<a href="<?php echo base_url('Sales/ViewSales'); ?>">Πωλήσεις</a><i>|</i></li>
 			</ul>
 		</div>
 	</div>
